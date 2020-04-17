@@ -1,46 +1,46 @@
-<!DOCTYPE html>
-<html lang="ru">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
 <head>
+    <meta content="text/html; charset=utf-8"/>
     <title>Заявка</title>
 </head>
 <body>
-    <header>
-        <h1>Отправка заявки на конференцию</h1>
-    </header>
+    
+    <h1>Отправка заявки на конференцию</h1>
     <h2>Основные данные</h2>
     <h3>*Фиамилия, имя, отчество:</h3>
-    <input required type="text" name="Фио" size="50">
+    <p><input type="text" name="Фио" size="50"/></p>
     <h3>Дата рождения:</h3>
-    <input placeholder="дд.мм.гггг" type="number" name="ДАТА рождения">
+    <p><input type="text" />дд.мм.гггг</p>
     <h3>Пол:</h3>
-    <input type="radio" name="с">муж
-    <input type="radio" name="с">жен
+    <p><input type="radio" name="с" />муж</p>
+    <p><input type="radio" name="с" />жен</p>
     <h2>Данные для создания личного кабинета</h2>
     <h3>*Адрес электронной почты:</h3>
-    <input required type="email" name="email" size="50">
+    <p><input type="text" size="50" /></p>
     <h3>*Пароль для создания личного кабинета:</h3>
-    <input required type="password" name="password" size="50">
+    <p><input type="password" size="50" /></p>
     <h3>*Подтверждение пароля:</h3>
-    <input required type="password" name="password2" size="50">
+    <p><input type="password" size="50" /></p>
     <h2>Материалы для конференции</h2>
     <h3>*Тема доклада:</h3>
-    <input required type="text" name="Тема" size="50">
+    <p><input type="text" name="Тема" size="50" /></p>
     <h3>*Тезисы доклада(не более 1000 символов):</h3>
-    <textarea maxlength="1000"></textarea>
+    <p><textarea rows="10" cols="45" name="text"></textarea></p>
     <h3>*Файл презентации:</h3>
-    <input type="file" name="file">
+    <p><input type="file" name="file" /></p>
     <h2>Дополнительные сведения</h2>
-    <input type="checkbox" name="Проживание в отеле">
-    <label>Проживание в отеле</label><br>
-    <input checked type="checkbox" name="Завтрак">
-    <label>Завтрак</label><br>
-    <input type="checkbox" name="Обед">
-    <label>Обед</label><br>
-    <input type="checkbox" name="Ужин">
-    <label>Ужин</label><br>
-    <hr>
-    <input type="submit" name="submit">
-    <hr>
+    <p><input type="checkbox" name="Проживание в отеле" /></p>
+    <p><label>Проживание в отеле</label></p>
+    <p><input checked="checked" type="checkbox" name="Завтрак" /></p>
+    <p><label>Завтрак</label></p>
+    <p><input type="checkbox" name="Обед" /></p>
+    <p><label>Обед</label></p>
+    <p><input type="checkbox" name="Ужин" /></p>
+    <p><label>Ужин</label></p>
+    <hr />
+    <p><input type="submit" name="submit" /></p>
+    <hr />
     <h5>*Поля отмеченные звездочкой являются обязательными для заполнения</h5>
 </body>
 </html>
